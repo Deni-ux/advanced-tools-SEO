@@ -8,7 +8,6 @@ body{
     margin: 100px 0;
 }
 
-
 h1,
 h2,
 h3,
@@ -16,10 +15,10 @@ p{
     color: var(--background-color);
 }
 h1{
-    font-size: 70px;
+    font-size: 65px;
 }
 h2{
-    font-size: 40px;
+    font-size: 38px;
 }
 h3{
     opacity:0.8;
@@ -32,14 +31,14 @@ p{
 .navigation-links{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .navigation-links a{
     text-decoration: none;
-    text-transform: white;
-    margin: 30px;
-    padding: 10px;
+    text-transform:capitalize;
+    margin: 20px;
+    padding: 10px 5px;
     border-radius: 20px;
 }
 .navigation-links a:hover{
@@ -81,6 +80,4 @@ p{
   color: var(--secondary-color);
 }
 
-.image-background{
-    background: #eff6fe;
-}
+
