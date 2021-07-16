@@ -1,0 +1,86 @@
+:root{
+    --primary-color:#f57359;
+    --secondary-color:#1d2228;
+    --background-color:#051622;
+    --box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+body{
+    margin: 100px 0;
+}
+
+
+h1,
+h2,
+h3,
+p{
+    color: var(--background-color);
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    opacity:0.8;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.navigation-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.navigation-links a{
+    text-decoration: none;
+    text-transform: white;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.navigation-links a:hover{
+    color:var(--secondary-color);
+}
+
+.about-link {
+  color: white;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+.contact-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+.app-link {
+  text-decoration: none;
+  text-transform: white;
+  padding: 10px;
+  border-radius: 20px;
+   color: white;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+ 
+}
+.app-link:hover {
+  color: var(--secondary-color);
+}
+.email-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  
+}
+.email-link:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+.image-background{
+    background: #eff6fe;
+}
